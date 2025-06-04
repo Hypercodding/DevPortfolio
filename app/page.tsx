@@ -15,23 +15,23 @@ const AnimatedBackground = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Ahmad Raza | Frontend Developer & UI/UX Specialist",
+  title: " Muhammad Hammad | Frontend Developer & UI/UX Specialist",
   description:
-    "Portfolio and resume of Ahmad Raza, Frontend Developer specializing in React, Next.js, Three.js, and interactive web experiences. Download resume and view projects.",
+    "Portfolio and resume of Muhammad Hammad, Frontend Developer specializing in React, Next.js, Three.js, and interactive web experiences. Download resume and view projects.",
   keywords:
     "frontend developer, react developer, nextjs, typescript, ui/ux, portfolio, resume download",
   openGraph: {
-    title: "Ahmad Raza | Frontend Developer & UI/UX Specialist",
+    title: "Muhammad Hammad | Frontend Developer & UI/UX Specialist",
     description:
-      "Portfolio and resume of Ahmad Raza, Frontend Developer specializing in React, Next.js, Three.js, and interactive web experiences. Download resume and view projects.",
+      "Portfolio and resume of Muhammad Hammad, Frontend Developer specializing in React, Next.js, Three.js, and interactive web experiences. Download resume and view projects.",
     url: "https://ahmadraza.dev",
-    siteName: "Ahmad Raza Portfolio",
+    siteName: "Muhammad Hammad Portfolio",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/hammad.png",
         width: 1200,
         height: 630,
-        alt: "Ahmad Raza Portfolio",
+        alt: "Muhammad Hammad Portfolio",
       },
     ],
     locale: "en_US",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ahmad Raza | Frontend Developer",
+    title: "Muhammad Hammad | Frontend Developer",
     description:
       "Frontend Developer specializing in React, Next.js, and interactive web experiences",
     images: ["/og-image.jpg"],

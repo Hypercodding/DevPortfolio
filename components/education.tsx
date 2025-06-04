@@ -7,16 +7,9 @@ import { GraduationCap, Award } from "lucide-react";
 
 const educationItems = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    period: "2014 - 2016",
-    description:
-      "Specialized in Human-Computer Interaction and Web Technologies. Graduated with honors.",
-  },
-  {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of California, Berkeley",
-    period: "2010 - 2014",
+    degree: "Bachelors of Science in Computer Science",
+    institution: "Virtual University",
+    period: "2019 - 2023",
     description:
       "Focused on Software Engineering and Web Development. Dean's List for all semesters.",
   },
@@ -24,19 +17,14 @@ const educationItems = [
 
 const certifications = [
   {
-    name: "AWS Certified Developer",
-    issuer: "Amazon Web Services",
-    date: "2022",
+    name: "JavaScruipt Essentials",
+    issuer: "Cisco (Credly)",
+    date: "2023",
   },
   {
-    name: "Professional Frontend Developer",
-    issuer: "Meta",
-    date: "2021",
-  },
-  {
-    name: "UI/UX Design Fundamentals",
-    issuer: "Google",
-    date: "2020",
+    name: "Introduction to CyberSecurity",
+    issuer: "Cisco (Credly)",
+    date: "2023",
   },
 ];
 

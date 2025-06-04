@@ -33,8 +33,8 @@ export default function Hero() {
           <Image
             width={160}
             height={160}
-            src="/placeholder.svg?height=160&width=160"
-            alt="Ahmad Raza"
+            src="/hammad.png"
+            alt="Muhammad Hammad"
             className="h-full w-full object-cover"
           />
         </motion.div>
@@ -45,7 +45,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          Ahmad Raza
+          Muhammad Hammad
         </motion.h1>
 
         <motion.div
@@ -56,7 +56,7 @@ export default function Hero() {
         >
           <TypeAnimation
             sequence={[
-              "Frontend Developer",
+              "Full Stack Developer",
               1000,
               "UI/UX Enthusiast",
               1000,
@@ -78,7 +78,7 @@ export default function Hero() {
           transition={{ delay: 0.8, duration: 0.5 }}
         >
           <motion.a
-            href="https://github.com/Mr-Excel"
+            href="https://github.com/Hypercodding"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -89,7 +89,7 @@ export default function Hero() {
             <span className="sr-only">GitHub</span>
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/ahmad-raza-0b134b149"
+            href="https://www.linkedin.com/in/muhammad-hammad-1276a32ab"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -100,7 +100,7 @@ export default function Hero() {
             <span className="sr-only">LinkedIn</span>
           </motion.a>
           <motion.a
-            href="mailto:ahmadraza600@gmail.com"
+            href="mailto:mohammadhammad302@gmail.com"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="rounded-full bg-muted p-3 text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"

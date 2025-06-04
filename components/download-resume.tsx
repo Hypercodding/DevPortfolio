@@ -9,78 +9,82 @@ import { toast } from "sonner";
 // Resume data structure
 const resumeData = {
   personalInfo: {
-    name: "Ahmad Raza",
-    title: "Frontend Developer",
-    email: "ahmadraza600@gmail.com",
-    phone: "+92 (307) 472-2794",
+    name: "Muhammad Hammad",
+    title: "Full-Stack Software Engineer",
+    email: "mohammadhammad302@gmail.com",
+    phone: "+92-309-8878186",
     location: "Lahore, Punjab, Pakistan",
-    website: "https://ahmadraza.dev",
-    linkedin: "https://www.linkedin.com/in/ahmad-raza-0b134b149",
-    github: "https://github.com/Mr-Excel",
+    website: "", // Add your portfolio link if available
+    linkedin: "https://www.linkedin.com/in/muhammad-hammad-1276a32ab/",
+    github: "https://github.com/Hypercodding",
   },
   summary:
-    "Passionate Frontend Developer with over 5 years of experience creating beautiful, responsive, and user-friendly web applications. Specialized in React, Next.js, and modern frontend technologies with a strong focus on user experience and performance optimization.",
+    "Results-driven Full-Stack Software Engineer with over 2 years of experience specializing in MERN Stack and Next.js development. Skilled in building scalable, high-performance web applications with modern frameworks, RESTful APIs, and cloud infrastructure. Proven ability to lead projects, write clean and maintainable code, and work efficiently in agile environments.",
   experience: [
     {
-      title: "Senior Frontend Developer",
-      company: "Tech Innovations Inc.",
-      period: "2021 - Present",
+      title: "Mid-Level Full Stack Software Engineer",
+      company: "Tendexa",
+      period: "2024 - Present",
       description:
-        "Lead the frontend development team in creating responsive web applications using React and Next.js. Implemented CI/CD pipelines and improved performance by 40%.",
+        "Built and maintained scalable web applications using React.js, Node.js, Express.js, and FastAPI. Designed RESTful APIs and implemented database schemas in PostgreSQL and MongoDB. Contributed to CI/CD automation and cross-functional agile teams.",
       technologies: [
-        "React",
-        "Next.js",
+        "ReactJS",
+        "NextJS",
         "TypeScript",
-        "Tailwind CSS",
-        "GraphQL",
+        "NodeJS",
+        "NestJS",
+        "ExpressJS",
+        "FastAPI",
+        "MongoDB",
+        "PostgreSQL",
+        "Firebase",
+        "Supabase",
+        "AWS",
+        "Docker",
+        "CI/CD",
       ],
     },
     {
-      title: "Frontend Developer",
-      company: "Digital Solutions Ltd.",
-      period: "2018 - 2021",
+      title: "Intern",
+      company: "Netsol Technologies",
+      period: "2024",
       description:
-        "Developed and maintained multiple client websites and web applications. Collaborated with designers to implement pixel-perfect UI components and animations.",
-      technologies: ["React", "JavaScript", "SCSS", "Redux", "REST APIs"],
-    },
-    {
-      title: "UI Developer",
-      company: "Creative Web Agency",
-      period: "2016 - 2018",
-      description:
-        "Created responsive websites for various clients. Worked closely with the design team to ensure high-quality implementation of UI/UX designs.",
-      technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+        "Worked in an Agile environment with professional developers, using Git, Jira, and Trello. Gained hands-on experience with collaborative software engineering practices.",
+      technologies: ["Git", "Agile", "Jira", "Trello"],
     },
   ],
   education: [
     {
-      degree: "Master of Science in Computer Science",
-      institution: "Stanford University",
-      period: "2014 - 2016",
-      description:
-        "Specialized in Human-Computer Interaction and Web Technologies. Graduated with honors.",
-    },
-    {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of California, Berkeley",
-      period: "2010 - 2014",
-      description:
-        "Focused on Software Engineering and Web Development. Dean's List for all semesters.",
+      degree: "Bachelor of Software Engineering",
+      institution: "Virtual University",
+      period: "",
+      description: "",
     },
   ],
   skills: {
-    frontend: ["React", "Next.js", "TypeScript", "HTML/CSS", "JavaScript"],
-    styling: ["Tailwind CSS", "SCSS", "Styled Components", "Framer Motion"],
-    backend: ["Node.js", "Express", "MongoDB", "REST APIs"],
-    tools: ["Git", "Webpack", "Jest", "CI/CD", "Docker"],
-    design: ["Figma", "Adobe XD", "Responsive Design", "UI/UX"],
+    frontend: ["React", "Next.js", "JavaScript", "TypeScript", "HTML/CSS"],
+    styling: ["Tailwind CSS", "SCSS", "Framer Motion"],
+    backend: ["Node.js", "Express", "NestJS", "FastAPI", "MongoDB", "PostgreSQL"],
+    tools: [
+      "Git",
+      "Webpack",
+      "Docker",
+      "CI/CD",
+      "AWS (EC2, S3, Amplify)",
+      "Netlify",
+      "Vercel",
+      "Vite",
+      "n8n",
+      "MindStudio",
+    ],
+    design: ["Responsive Design", "UI/UX", "Figma"],
   },
   certifications: [
-    "AWS Certified Developer - Amazon Web Services (2022)",
-    "Professional Frontend Developer - Meta (2021)",
-    "UI/UX Design Fundamentals - Google (2020)",
+    "Javascript Essentials - Cisco (Credly)",
+    "Introduction to CyberSecurity - Cisco (Credly)",
   ],
 };
+
 
 function generatePDFContent(): string {
   const {

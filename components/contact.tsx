@@ -99,10 +99,10 @@ export default function Contact() {
                       <div>
                         <h4 className="font-medium">Email</h4>
                         <a
-                          href="mailto:ahmadraza600@gmail.com"
+                          href="mailto:mohammadhammad302@gmail.com"
                           className="text-muted-foreground hover:text-primary hover:underline"
                         >
-                          ahmadraza600@gmail.com
+                          mohammadhammad302@gmail.com
                         </a>
                       </div>
                     </div>
@@ -114,10 +114,10 @@ export default function Contact() {
                       <div>
                         <h4 className="font-medium">Phone</h4>
                         <a
-                          href="tel:+923074722794"
+                          href="tel:+923098878186"
                           className="text-muted-foreground hover:text-primary hover:underline"
                         >
-                          +92 (307) 472-2794
+                          +92 (309) 8878186
                         </a>
                       </div>
                     </div>
@@ -128,7 +128,7 @@ export default function Contact() {
                   <iframe
                     title="Location Map"
                     className="h-[200px] w-full rounded-md border"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.50764017948551!3d37.75781499644172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1623252076085!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435518.6817857847!2d74.054194!3d31.4832206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1710860000000!5m2!1sen!2s"
                     loading="lazy"
                   ></iframe>
                 </div>

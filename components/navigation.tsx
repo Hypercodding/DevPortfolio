@@ -65,7 +65,7 @@ export default function Navigation() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            Ahmad Raza
+            Muhammad Hammad
           </motion.div>
 
           {/* Desktop Navigation */}

@@ -8,28 +8,35 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Frontend Developer",
-    company: "Tech Innovations Inc.",
-    period: "2021 - Present",
+    title: "Mid-Level Full Stack Software Engineer",
+    company: "Tendexa",
+    period: "2024 - Present",
     description:
-      "Lead the frontend development team in creating responsive web applications using React and Next.js. Implemented CI/CD pipelines and improved performance by 40%.",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "GraphQL"],
+      "Built and maintained scalable web applications using React.js, Node.js, Express.js, and FastAPI. Designed RESTful APIs and implemented database schemas in PostgreSQL and MongoDB. Contributed to CI/CD automation and cross-functional agile teams.",
+    technologies: [
+      "ReactJS",
+      "NextJS",
+      "TypeScript",
+      "NodeJS",
+      "NestJS",
+      "ExpressJS",
+      "FastAPI",
+      "MongoDB",
+      "PostgreSQL",
+      "Firebase",
+      "Supabase",
+      "AWS",
+      "Docker",
+      "CI/CD",
+    ],
   },
   {
-    title: "Frontend Developer",
-    company: "Digital Solutions Ltd.",
-    period: "2018 - 2021",
+    title: "Intern",
+    company: "Netsol Technologies",
+    period: "2024",
     description:
-      "Developed and maintained multiple client websites and web applications. Collaborated with designers to implement pixel-perfect UI components and animations.",
-    technologies: ["React", "JavaScript", "SCSS", "Redux", "REST APIs"],
-  },
-  {
-    title: "UI Developer",
-    company: "Creative Web Agency",
-    period: "2016 - 2018",
-    description:
-      "Created responsive websites for various clients. Worked closely with the design team to ensure high-quality implementation of UI/UX designs.",
-    technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+      "Worked in an Agile environment with professional developers, using Git, Jira, and Trello. Gained hands-on experience with collaborative software engineering practices.",
+    technologies: ["Git", "Agile", "Jira", "Trello"],
   },
 ];
 
@@ -56,7 +63,7 @@ export default function Experience() {
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
               <div
-                className={`md:flex ${
+                className={`md:flex  ${
                   index % 2 === 0 ? "md:flex-row-reverse" : ""
                 }`}
               >
@@ -72,7 +79,7 @@ export default function Experience() {
 
                 {/* Content */}
                 <div
-                  className={`md:w-1/2 ${
+                  className={`md:w-1/2 p-3 ${
                     index % 2 === 0 ? "md:pr-12" : "md:pl-12"
                   }`}
                 >
