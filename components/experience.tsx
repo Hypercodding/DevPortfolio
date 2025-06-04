@@ -9,7 +9,7 @@ import { Briefcase } from "lucide-react";
 const experiences = [
   {
     title: "Mid-Level Full Stack Software Engineer",
-    company: "Tendexa",
+    company: "APT Tech Studio",
     period: "2024 - Present",
     description:
       "Built and maintained scalable web applications using React.js, Node.js, Express.js, and FastAPI. Designed RESTful APIs and implemented database schemas in PostgreSQL and MongoDB. Contributed to CI/CD automation and cross-functional agile teams.",
