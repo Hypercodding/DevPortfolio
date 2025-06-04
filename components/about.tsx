@@ -50,7 +50,7 @@ export default function About() {
                   My journey in software development began during my computer science
                   studies at Virtual University, where I discovered my passion for creating
                   intuitive user interfaces and seamless user experiences. I&apos;ve worked
-                  with various companies including Tendexa and Netsol Technologies, bringing
+                  with various companies including APT Tech Studio and Netsol Technologies, bringing
                   digital visions to life through clean, maintainable code.
                 </p>
                 <p className="text-muted-foreground">
