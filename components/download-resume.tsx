@@ -15,7 +15,7 @@ const resumeData = {
     phone: "+92-309-8878186",
     location: "Lahore, Punjab, Pakistan",
     website: "", // Add your portfolio link if available
-    linkedin: "https://www.linkedin.com/in/muhammad-hammad-1276a32ab/",
+    linkedin: "https://www.linkedin.com/in/hammadjs/",
     github: "https://github.com/Hypercodding",
   },
   summary:

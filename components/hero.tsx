@@ -89,7 +89,7 @@ export default function Hero() {
             <span className="sr-only">GitHub</span>
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/muhammad-hammad-1276a32ab"
+            href="https://www.linkedin.com/in/hammadjs/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}

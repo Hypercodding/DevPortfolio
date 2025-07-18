@@ -8,6 +8,36 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
+    title: "Senior Full Stack Software Engineer",
+    company: "Sygnls",
+    period: "2025 - Present",
+    description:
+      "Built scalable web applications from scratch using React.js, Node.js, Express.js, and FastAPI.Implemented Design System, Implemented Azure AD Authentication, integrated with Azure AD B2C, Integrated accessibility features, Designed fully integrated frontend and backend RESTful APIs and implemented database schemas in PostgreSQL and MongoDB. Used famous components like Ant Design, Shadcn UI, and Tailwind CSS. Contributed to CI/CD automation and cross-functional agile teams.",
+    technologies: [
+      "ReactJS",
+      "NextJS",
+      "TypeScript",
+      "NodeJS",
+      "NestJS",
+      "ExpressJS",
+      "FastAPI",
+      "MongoDB",
+      "PostgreSQL",
+      "Firebase",
+      "Supabase",
+      "AWS",
+      "Docker",
+      "CI/CD",
+      "Azure AD",
+      "Azure AD B2C",
+      "Ant Design",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Framer Motion",
+      
+    ],
+  },
+  {
     title: "Mid-Level Full Stack Software Engineer",
     company: "APT Tech Studio",
     period: "2024 - Present",
