@@ -28,9 +28,28 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Rocket Job",
+    description:
+      "An AI-powered recruitment automation platform designed to streamline the hiring and application process for job seekers and recruiters.",
+    image: "/rocketjob.png?height=400&width=600",
+    technologies: [
+      "TypeScript",
+      "FastAPI",
+      "n8n",
+      "LLMs",
+      "SLMs",
+      "OpenAI APIs",
+      "LangChain",
+    ],
+    liveUrl: "https://rocketjob.ai",
+    githubUrl: "",
+    longDescription:
+      "Rocket Job is an AI-powered recruitment automation platform designed to streamline the hiring and application process for job seekers and recruiters. It features resume optimization, ATS tracking, and AI-driven job matching, enabling candidates to enhance their profiles and improve interview success rates. By integrating SLMs, LLMs, and automation tools like n8n, Rocket Job intelligently analyzes job descriptions, tailors resumes, and automates repetitive workflows — ultimately reducing hiring time and improving placement efficiency.",
+  },
+  {
     title: "Belva AI",
     description:
-      "An AI-powered international platform developed with a strong focus on code quality, scalability, and performance.",
+      "A scalable international AI platform built with a strong focus on code quality, scalability, and performance.",
     image: "/BelvaAI.png?height=400&width=600",
     technologies: [
       "React.js",
@@ -40,15 +59,15 @@ const projects: Project[] = [
       "ESLint",
       "CI/CD",
     ],
-    liveUrl: "https://www.belva.ai/", // Replace with the actual live URL if available
-    githubUrl: "", // Replace with specific repo URL if public
+    liveUrl: "https://www.belva.com/",
+    githubUrl: "",
     longDescription:
       "Belva AI is a scalable international AI platform built using React.js and Node.js with MongoDB. Emphasized high code standards using strict TypeScript typing and ESLint rules. Implemented CI/CD pipelines for efficient development workflows and enhanced production readiness. Delivered a robust, maintainable codebase optimized for collaboration and performance.",
   },
   {
     title: "Dazhboards",
     description:
-      "An AI-powered Business Intelligence and Sustainability Software designed for the tours and activities industry, providing insights and recommendations to track progress towards financial and environmental sustainability.",
+      "An AI-powered Business Intelligence and Sustainability Software designed for the tours and activities industry.",
     image: "/dazhboards.png?height=400&width=600",
     technologies: [
       "React",
@@ -56,51 +75,13 @@ const projects: Project[] = [
       "FastAPI",
       "PostgreSQL",
       "Tailwind CSS",
-      "AI/ML Integration"
+      "AI/ML Integration",
     ],
     liveUrl: "https://dazhboards.com/",
     githubUrl: "",
     longDescription:
-      "Dazhboards is an AI-powered Business Intelligence and Sustainability Software tailored for the tours and activities sector. It offers features such as reseller contract management, product profitability insights, and dynamic pricing tools. By leveraging AI, Dazhboards provides actionable insights to optimize reseller relationships, enhance product offerings, and drive profitability, all while ensuring alignment with sustainability goals. "
+      "Dazhboards is an AI-powered Business Intelligence and Sustainability Software tailored for the tours and activities sector. It offers features such as reseller contract management, product profitability insights, and dynamic pricing tools. By leveraging AI, Dazhboards provides actionable insights to optimize reseller relationships, enhance product offerings, and drive profitability, all while ensuring alignment with sustainability goals.",
   },
-  {
-    title: "Payam e Haq",
-    description:
-      "An Islamic platform delivering spiritual lectures, health insights, and educational content.",
-    image: "/payam-e-haq.png?height=400&width=600",
-    technologies: [
-      "React",
-      "Tailwind CSS",
-      "Firebase",
-      "Framer Motion",
-      "Redux",
-    ],
-    liveUrl: "https://payamehaq.com/",
-    githubUrl: "", // Replace with actual repo if available
-    longDescription:
-      "Payam e Haq is a responsive web platform focused on sharing Islamic teachings, health awareness, and spiritual content through recorded and live lectures by Irfan-ul-Haq. Built with React and Firebase, it features dynamic content updates, clean UI design, and performance-optimized architecture. The site supports video streaming, audio playback, and educational blog posts, aiming to promote spiritual and physical well-being.",
-  },
-  
-  {
-    title: "Tendexa HRMS",
-    description:
-      "An AI-driven Human Resource Management System designed to streamline employee data, attendance, payroll, and performance tracking with advanced automation features.",
-    image: "/tendexa.png?height=400&width=600",
-    technologies: [
-      "React",
-      "Node.js",
-      "FastAPI",
-      "PostgreSQL",
-      "Tailwind CSS",
-      "AI/ML Integration"
-    ],
-    liveUrl: "https://tendexa.com",
-    githubUrl: "",
-    longDescription:
-      "Tendexa HRMS is a comprehensive Human Resource Management System that leverages AI to automate routine HR tasks such as attendance monitoring, payroll processing, and employee performance evaluation. The system features a user-friendly dashboard for HR managers to track employee data, generate reports, and manage workflows efficiently. Integration with AI modules allows predictive analytics for workforce planning and personalized employee engagement. Developed with modern technologies like React for the frontend, FastAPI and Node.js for backend services, and PostgreSQL for data management, Tendexa HRMS aims to improve organizational productivity through smart automation."
-  },
-  
-  
 ];
 
 export default function Projects() {

@@ -56,13 +56,13 @@ export default function Hero() {
         >
           <TypeAnimation
             sequence={[
-              "Full Stack Developer",
+              "Full-Stack Software Engineer",
               1000,
-              "UI/UX Enthusiast",
+              "Frontend Specialist",
               1000,
-              "React Specialist",
+              "AI & Automation Expert",
               1000,
-              "Creative Coder",
+              "React & Next.js Developer",
               1000,
             ]}
             wrapper="span"

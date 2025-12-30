@@ -7,24 +7,24 @@ import { GraduationCap, Award } from "lucide-react";
 
 const educationItems = [
   {
-    degree: "Bachelors of Science in Computer Science",
+    degree: "Bachelor of Software Engineer",
     institution: "Virtual University",
-    period: "2019 - 2023",
+    period: "2019 - 2022",
     description:
-      "Focused on Software Engineering and Web Development. Dean's List for all semesters.",
+      "CGPA: 3.3. Focused on Software Engineering, Web Development, and modern programming practices.",
   },
 ];
 
 const certifications = [
   {
-    name: "JavaScruipt Essentials",
+    name: "JavaScript Essentials",
     issuer: "Cisco (Credly)",
-    date: "2023",
+    date: "2022",
   },
   {
     name: "Introduction to CyberSecurity",
     issuer: "Cisco (Credly)",
-    date: "2023",
+    date: "2022",
   },
 ];
 

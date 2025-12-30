@@ -41,22 +41,23 @@ export default function About() {
               <CardContent className="p-6">
                 <h3 className="mb-4 text-2xl font-bold">Who am I?</h3>
                 <p className="mb-4 text-muted-foreground">
-                  I&apos;m a Full-Stack Software Engineer with over 2 years of
-                  experience specializing in MERN Stack and Next.js development. I excel at
-                  building scalable, high-performance web applications with modern frameworks,
-                  RESTful APIs, and cloud infrastructure.
+                  I&apos;m a results-driven Frontend Engineer with over 3 years of
+                  experience specializing in React.js, Next.js, and modern frontend ecosystems. 
+                  I excel at developing scalable, high-performance, and visually engaging web 
+                  applications with a strong emphasis on UI/UX design, performance optimization, 
+                  and component-based architecture.
                 </p>
                 <p className="mb-4 text-muted-foreground">
-                  My journey in software development began during my computer science
-                  studies at Virtual University, where I discovered my passion for creating
-                  intuitive user interfaces and seamless user experiences. I&apos;ve worked
-                  with various companies including APT Tech Studio and Netsol Technologies, bringing
-                  digital visions to life through clean, maintainable code.
+                  Experienced in integrating RESTful APIs, implementing AI-driven workflows 
+                  using SLMs and LLMs, and automating processes with tools like n8n. Skilled 
+                  in building AI-powered interfaces, leveraging modern libraries, and 
+                  collaborating in agile environments to deliver innovative, data-driven, 
+                  and intelligent user experiences.
                 </p>
                 <p className="text-muted-foreground">
-                  When I&apos;m not coding, you can find me exploring new
-                  technologies, contributing to open-source projects, or
-                  enhancing my skills through continuous learning and certifications.
+                  I&apos;ve worked with companies including Rocket Job, Sygnls, 
+                  APT Tech Studio, and Netsol Technologies, bringing digital visions 
+                  to life through clean, maintainable code and cutting-edge technologies.
                 </p>
 
                 <div className="mt-6 grid grid-cols-2 gap-4">

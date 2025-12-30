@@ -1,9 +1,22 @@
 "use client";
 
-import { useRef, useState, Suspense } from "react";
+import { useRef, useState, useEffect, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Environment, ContactShadows } from "@react-three/drei";
 import type * as THREE from "three";
+
+const isWebGLAvailable = (): boolean => {
+  if (typeof window === "undefined") return false;
+  try {
+    const canvas = document.createElement("canvas");
+    return !!(
+      window.WebGLRenderingContext &&
+      (canvas.getContext("webgl") || canvas.getContext("experimental-webgl"))
+    );
+  } catch {
+    return false;
+  }
+};
 
 function FloatingCube({ position }: { position: [number, number, number] }) {
   const meshRef = useRef<THREE.Mesh>(null!);
@@ -129,6 +142,26 @@ function Scene() {
 }
 
 export default function Interactive3DModel() {
+  const [webGLSupported, setWebGLSupported] = useState<boolean | null>(null);
+  const [hasError, setHasError] = useState(false);
+
+  useEffect(() => {
+    setWebGLSupported(isWebGLAvailable());
+  }, []);
+
+  // Still checking or WebGL not supported or error occurred
+  if (webGLSupported === null || !webGLSupported || hasError) {
+    return (
+      <div className="fixed inset-0 z-0 opacity-30 pointer-events-none overflow-hidden">
+        {/* Fallback animated gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-secondary/20 animate-pulse" />
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-blob" />
+        <div className="absolute top-1/2 right-1/4 w-72 h-72 bg-secondary/10 rounded-full blur-3xl animate-blob animation-delay-2000" />
+        <div className="absolute bottom-1/4 left-1/2 w-56 h-56 bg-accent/10 rounded-full blur-3xl animate-blob animation-delay-4000" />
+      </div>
+    );
+  }
+
   return (
     <div
       className="fixed inset-0 z-0 opacity-60"
@@ -137,6 +170,10 @@ export default function Interactive3DModel() {
       <Canvas
         camera={{ position: [0, 0, 5], fov: 60 }}
         style={{ pointerEvents: "auto" }}
+        onCreated={({ gl }) => {
+          if (!gl) setHasError(true);
+        }}
+        onError={() => setHasError(true)}
       >
         <Suspense fallback={null}>
           <Scene />
